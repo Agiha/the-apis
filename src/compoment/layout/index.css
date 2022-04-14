@@ -1,0 +1,28 @@
+.topBox {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  padding: 19px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom: #dbd9d9 2px solid;
+}
+.topBox .IconBox {
+  width: 37.82px;
+  height: 37.82px;
+}
+.topBox .IconBox .Icon {
+  width: 28.37px;
+  height: 28.37px;
+  text-align: center;
+}
+.topBox .logoImg {
+  margin-left: 43.18px;
+}
+.topBox .logoImg img {
+  width: 135px;
+  height: 37px;
+}
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  background-color: #F2F2F2 !important;
+}
