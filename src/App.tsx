@@ -1,11 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Layouts from './compoment/layout'
-
+import React from "react";
+import "./App.css";
+import Layouts from "./compoment/layout";
+import { HashRouter, Switch, Route } from 'react-router-dom'
+import Watchlist from "./page/Watchlist";
 function App() {
   return (
-<Layouts></Layouts>
+    <Layouts>
+      <HashRouter>
+        <Switch>
+          <Route path="/" exact component={Watchlist}></Route>
+        </Switch>
+      </HashRouter>
+    </Layouts>
   );
 }
 

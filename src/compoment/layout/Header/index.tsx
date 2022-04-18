@@ -1,13 +1,20 @@
 import * as React from 'react';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+import DehazeIcon from "@mui/icons-material/Dehaze";
+import logo from "../../../assets/apis_logo.png";
+import './index.css'
 
-export default function BasicButtons() {
+export default function Header({openMenu}:{openMenu:any}) {
   return (
-    <Stack spacing={2} direction="row">
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-    </Stack>
+    
+    <div className="topBox">
+    <div className="IconBox">
+      <DehazeIcon  onClick={()=>{
+          openMenu()
+      }} className="Icon"></DehazeIcon>
+    </div>
+    <div className="logoImg">
+      <img src={logo} alt="" />
+    </div>
+  </div>
   );
-}
+}7

@@ -10,6 +10,8 @@
 .topBox .IconBox {
   width: 37.82px;
   height: 37.82px;
+  padding-top: 6px;
+  box-sizing: border-box;
 }
 .topBox .IconBox .Icon {
   width: 28.37px;
@@ -17,7 +19,7 @@
   text-align: center;
 }
 .topBox .logoImg {
-  margin-left: 43.18px;
+  margin-left: 93.18px;
 }
 .topBox .logoImg img {
   width: 135px;
@@ -25,4 +27,102 @@
 }
 .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
   background-color: #F2F2F2 !important;
+}
+.ListBox {
+  padding: 19.75px 19px 0px 17px;
+  box-sizing: border-box;
+  width: 430px;
+}
+.css-1mcnwpj-MuiList-root {
+  max-width: 394px !important;
+  background-color: #FBFAFC !important;
+}
+.css-1mcnwpj-MuiList-root {
+  max-width: 394px !important;
+  padding: 18.91px !important;
+  box-sizing: border-box !important;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+  width: 356.18px;
+  height: 75.65px;
+  padding: 18.91px !important;
+  margin: auto !important;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  width: 28.37px !important;
+  height: 28.37px !important;
+}
+.css-10hburv-MuiTypography-root {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  font-family: "Manrope" !important;
+  text-align: left !important;
+  line-height: 20px !important;
+}
+.TechnicalBox {
+  background-color: #FBFAFC !important;
+  max-width: 394px !important;
+  padding: 37.82px !important;
+  box-sizing: border-box !important;
+}
+.TechnicalBox .Divider {
+  margin-top: 226.53px;
+}
+.TechnicalBox .TechnicalText {
+  color: #504f54;
+  font-size: 22.06px;
+  font-weight: 700;
+  font-family: "Manrope";
+  text-align: left;
+  margin-top: 36.9px;
+  margin-bottom: 23.16px;
+  margin-left: 12.61px;
+}
+.TechnicalBox .ContactText {
+  color: #504f54;
+  font-size: 22.06px;
+  font-weight: 700;
+  font-family: "Manrope";
+  text-align: left;
+  margin-top: 23.16px;
+  margin-bottom: 46.78px;
+  margin-left: 12.61px;
+}
+.TechnicalBox .backBox {
+  background-image: url(../../assets/NavigationBackground.png);
+  width: 318.35px;
+  height: 175.45px;
+  border-radius: 6px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.16);
+}
+.TechnicalBox .backBox .ReleaseText {
+  color: #2e2c34;
+  font-size: 18.91px;
+  font-weight: 700;
+  font-family: "Manrope";
+  text-align: left;
+  padding-top: 24.63px;
+  margin-bottom: 5px;
+  margin-left: 25.22px;
+}
+.TechnicalBox .backBox .potentialText {
+  color: #2e2c34;
+  font-size: 18.91px;
+  font-weight: 700;
+  font-family: "Manrope";
+  text-align: left;
+  margin-bottom: 19.26px;
+  margin-left: 25.22px;
+}
+.TechnicalBox .backBox .btn {
+  width: 280.53px;
+  height: 57.22px;
+  border-radius: 4px;
+  opacity: 1;
+  background: #761fde;
+  margin-left: 25.22px;
+  color: #fbfafc;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Manrope";
 }
